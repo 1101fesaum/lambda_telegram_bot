@@ -3,7 +3,7 @@ import os
 import requests
 
 TOKEN = os.environ['TELEGRAM_TOKEN']
-ADMIN_CHAT_ID = os.environ['BOT_ID']
+ADMIN_CHAT_ID = os.environ['ADMIN_CHAT_ID']
 URL = f"https://api.telegram.org/bot{TOKEN}/"
 
 
